@@ -1,0 +1,103 @@
+
+body {
+    font-family: sans-serif;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  .task-list {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    background-color: rgb(215, 215, 215);
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 20px;
+  }
+
+  .task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .checkbox {
+    background-color: transparent;
+  }
+
+  .task-list li .right-controls {
+    display: flex;
+    align-items: center;
+  }
+
+  .task-list li .checkbox {
+    margin-right: 5px;
+  }
+
+  .right-controls {
+    display: flex;
+    align-items: center;
+  }
+
+  .task-list h2 {
+    margin-top: 0;
+  }
+
+  .task-text {
+    font-size: 1.2rem;
+    color: #333;
+  }
+
+  .task-list ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .task-list li input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  .task-list li .delete-task {
+    float: right;
+    cursor: pointer;
+  }
+
+  .task-form {
+    width: 300px;
+  }
+
+  .task-form h2 {
+    margin-top: 0;
+  }
+
+  .task-form input[type="text"] {
+    font-size: 1.4rem;
+    border: none;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  .task-form input[type="text"]:focus {
+    outline: none;
+  }
+
+  hr {
+    color: #333;
+  }
+
+  .edit-task {
+    cursor: pointer;
+    margin-right: 5px;
+  }
+
+  .task-text.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
